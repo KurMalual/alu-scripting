@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/(?<=from:|to:|flags:).
-+?(?=\]/).join(',')
+
+
+
+#Match the regex
+regex = /\[(from|to):([^\]]+)\]|\[flags:([^\]]+)\]/
+
+puts ARGV[0].scan(/\[from:(.*?)\]\s\[to:(.*?)\]\s\[flags:(.*?)\]/).join(',')
