@@ -1,5 +1,5 @@
-#!/usr/bin/pyhton3
-"""Top Ten limit"""
+#!/usr/bin/python3
+"""" Top Ten Limit"""
 import requests
 
 
