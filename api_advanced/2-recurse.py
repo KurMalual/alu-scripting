@@ -1,5 +1,5 @@
-#!/usr/bin/pyhton3
-"""Recurse"""
+#!/usr/bin/python3
+""""Recurse"""
 import requests
 
 
